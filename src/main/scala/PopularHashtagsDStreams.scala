@@ -1,3 +1,4 @@
+/*
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.{Seconds, StreamingContext}
@@ -7,11 +8,11 @@ import scala.util.Random
 /** Listens to a stream of Tweets and keeps track of the most popular
   * hashtags over a 5 minute window.
   *  1. First, we want to stream most popular words
-  *  2. Next, find average tweet length!
+  *     2. Next, find average tweet length!
   *
   *
-  *  HEY: the way I did part 3 for AVG tweet length was much more
-  *  inefficient than using foreachRDD from course 2 SS with DStreams
+  * HEY: the way I did part 3 for AVG tweet length was much more
+  * inefficient than using foreachRDD from course 2 SS with DStreams
   */
 
 object PopularHashtagsDStreams {
@@ -195,3 +196,4 @@ object PopularHashtagsDStreams {
       .awaitTermination
   }
 }
+*/
